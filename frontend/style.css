@@ -1,0 +1,141 @@
+<style type="text/css">
+
+body {
+}
+
+div {
+}
+
+.div_sidebar {
+    padding-top: 10px;
+    padding-left: 10px;
+    float:left;
+    width:15%;
+    height:99%;
+    border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+
+    background-color:#ddddff;
+
+    box-shadow:6px 6px 6px #666;
+
+}
+
+.div_content {
+    padding-top: 10px;
+    float:left;
+    width:84%;
+    height:99%;
+    overflow: scroll;
+
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+
+    background-color:#dddddd;
+
+    box-shadow:6px 6px 6px #666;
+}
+
+table {
+}
+
+.table_login_window {
+    width:300px;
+    padding: 4px 8px 4px 4px;
+    color=#CCCCCC;
+}
+
+
+.table_details {
+}
+
+.table_details_content {
+    padding: 10px 10px 10px 10px;
+    text-align:left;
+    vertical-align:top;
+}
+
+.table_details_content_internal {
+    padding: 4px 8px 4px 4px;
+    text-align:left;
+    vertical-align:top;
+}
+
+.table_list {
+    border-collapse:collapse;
+}
+
+.table_list_head {
+    text-align:center;
+    font-weight:bold;
+    font-size:18;
+    background-color: #bbbbbb;
+}
+
+.table_list_content {
+    padding: 2px 7px 2px 7px;
+    text-align:center;
+}
+
+h2 {
+}
+
+
+.sidebar_headline {
+}
+
+img {
+}
+
+.item_icon_picture {
+    height:24px;
+    width:24px;
+}
+
+.map_picture {
+    height:200px;
+    width:200px;
+    border:4px solid #999999;
+
+    border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+
+    box-shadow:4px 4px 4px #666;
+}
+
+.model_picture {
+    height:100px;
+    width:100px;
+    border:3px solid #999999;
+
+    border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+
+    box-shadow:3px 3px 3px #666;
+}
+
+
+a {
+}
+
+.link {
+
+}
+
+</style>

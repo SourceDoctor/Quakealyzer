@@ -1,0 +1,85 @@
+
+/***********************************************
+*
+* Quakealyzer Webfrontend
+*
+***********************************************/
+
+Todo's:
+==========================================
+- PDO
+- counting captured Flags per User in CTF
+- used Items per Player in Game
+- Player Time in Game
+- possible external Loginsystem ... (some kind of API for LDAP or other)
+
+
+
+Installation/Configuration
+===========================================
+Install your preferenced Webserver and a MySQL Database-Server
+PHP5 and Mysql have to be installed and supported from your Webserver.
+
+The following packages are needed.
+- php5
+- php5-mysql (for MySQL Database)
+- php5-imagick
+- zip
+- unzip
+
+configure in conf.php the Conf-Section
+(especially the Database Part)
+
+the Image directory has to own to your Webserver User (normally www-data)
+    -> chown www-data images -R
+
+the Download directory has to own to your Webserver User (normally www-data)
+    -> chown www-data downloads -R
+
+
+
+Text Translation:
+==========================================
+If needed you can translate every Text into your prevered language.
+Open the conf.php, here are all Texts shown onto the Webfrontend.
+Replace the Text with the Text you want and it will be shown like expected.
+
+
+
+Getting Map/Model Pictures out of the pk3-Files:
+===========================================
+
+Per default the Websystem handles the extraction, conversion and coping of
+needed Images by itself.
+(so the first run of this Website may be a little slow
+(because of doing it for every pk3 ;-) ), but only the first run)
+
+But you can disable autodiscovery also.
+
+
+
+Maps-Packages for Download:
+==========================================
+This also runs per default automatically.
+
+If a new Package will be detected it will be zipped and copied to
+the download Section.
+
+But you can disable this feature.
+
+
+
+Contact:
+=========================================
+For wishes, Bugs, Questions,
+write Mail to thomasberb@googlemail.com
+
+
+
+License:
+=========================================
+
+This Webpage is Open Source and can be used for any non commercial use cases.
+Its a Webfrontend for Quakealyzer Backend and uses it's Database.
+
+
